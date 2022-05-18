@@ -1,0 +1,22 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "1. install tools\r 2. create react app\r 3. create git repo",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setyawandwiki/mern-e-commerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/setyawandwiki/mern-e-commerce/issues"
+  },
+  "homepage": "https://github.com/setyawandwiki/mern-e-commerce#readme"
+}
